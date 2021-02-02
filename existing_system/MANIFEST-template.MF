@@ -1,0 +1,9 @@
+Created-By: Python/deployctl
+Implementation-Title: zalos-{APP}-{PART}
+Implementation-Tag: master
+Implementation-Version: 1.0
+Implementation-Vendor-Id: de.zalando
+Build-Time: 20181206-1212
+Implementation-Build: rev
+X-Environment: {ENV}
+X-Project: de.zalando:zalos-{APP}-{PART}
