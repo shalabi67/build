@@ -8,3 +8,9 @@ This will demo how a property can use another property in spring boot.
 ### using environment variable
 - mvn spring-boot:run -Dspring-boot.run.arguments=--prop3=Shalabi
 - in the log you should see `c.b.properties.PropertyConfiguration     : value=I am Shalabi`
+
+### filing value from environment variable
+- export var=VARIABLE
+- mvn spring-boot:run -Dspring-boot.run.arguments=--prop3=Shalabi
+- in the log you should see `c.b.properties.PropertyConfiguration     : value=I am Shalabi VARIABLE`
+
